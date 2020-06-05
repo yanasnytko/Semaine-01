@@ -5,6 +5,7 @@
 Vous avez bien lu, on va vous demander de réaliser une première page HTML sans avoir vu de théorie au préalable. Le but c'est d'explorer par vous même les ressources mise à votre disposition et à expérimenter.
 
 Vous allez devoir réaliser une one-page qui présente votre recette de cuisine préférée! 
+Basez vous sur le dossier exercice-recette comme base à la création de votre première recette, vous y trouverez un fichier style.css déjà lié au fichier index.html et un fichier index.html rempli du squelette de base et des méta-données.
 
 ## Objectifs
 
