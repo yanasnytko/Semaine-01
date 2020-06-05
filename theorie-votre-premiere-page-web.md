@@ -10,7 +10,7 @@ Vous trouverez dans ce fichier toutes les ressources nécessaires à la réalisa
 2. Qu'est ce que le CSS
 3. MDN et autres ressources
 
-## Qu'est ce que le HTML?
+## Qu'est ce que le HTML ?
 
 HTML est l'acronyme de HyperText Markup Language.
 Le HTML n'est pas un langage à proprement parlé comme on peut le dire du Javascript ou du PHP. 
@@ -24,14 +24,15 @@ Qu'entendons-nous par contenu?
 
 Titres, textes, images, vidéos, liens vers d'autres pages...
 
-## Qu'est ce que le CSS? 
+## Qu'est ce que le CSS ?
 
-Le CSS ou Cascading Style sheets (feuilles de style en cascade), permet la mise en forme de votre squelette, c'est la partie émergée de l'iceberg, celle que vous pouvez voir quand vous consulter vos pages web. 
+Le CSS ou Cascading Style sheets (feuilles de style en cascade), permet la mise en forme de votre squelette, c'est la partie émergée de l'iceberg, celle que vous pouvez voir quand vous consulter vos pages web.
 
 Couleurs, polices, formes, tailles, mise en page, animations, tout ce qui rend "joli" (ou non) le squelette de votre page web ainsi que son contenu.
-Rataché à votre HTML il vous permettra de mettre en oeuvre ce que vous verrez dans votre cours de Web Design. 
+Rataché à votre HTML il vous permettra de mettre en oeuvre ce que vous verrez dans votre cours de Web Design.
 La synthaxe se compose de plusieurs éléments:
-1. Le sélecteur: le nom de la balise à laquelle vous désirez attribuer un style (par exemple: h1), le nom de classe que vous avez personnalisé précédé d'un point (par exemple: .main-title), ou l'ID de l'élément précédé d'un # (par exemple: #main-container). 
+
+1. Le sélecteur: le nom de la balise à laquelle vous désirez attribuer un style (par exemple: h1), le nom de classe que vous avez personnalisé précédé d'un point (par exemple: .main-title), ou l'ID de l'élément précédé d'un # (par exemple: #main-container).
 2. La propriété CSS: il s'agit ici de la propriété qui va permettre la mise en page de votre contenu, par exemple si vous souhaitez modifier la taille de votre police la propriété CSS qui s'y ratache est "font-size". 
 3. La valeur: et enfin la valeur que vous souhaitez apporter à la propriété, par exemple pour un titre vous désirerez peut être régler la taille de votre police sur 24px 
 
@@ -44,7 +45,7 @@ Voici un exemple de synthaxe CSS que vous pourriez retrouver dans votre code:
 
 Les bracelets ou "curly bracket" { } signifie l'ouverture du code, insérez y vos propriétés CSS, pour que le navigateur puisse passer à la propriété suivante n'oubliez jamais de faire suivre vos valeur d'un ";" point virgule et de passer à la ligne. 
 Mais avant toute chose: pour permettre à votre CSS d'être appliqué à votre HTML vous devez le lier au fichier HTML; il existe trois façon d'appliquer du CSS à votre HTML vous les découvrirez dans cet article:
-https://developer.mozilla.org/fr/docs/Apprendre/CSS/Utiliser_CSS_dans_une_page_web
+[https://developer.mozilla.org/fr/docs/Apprendre/CSS/Utiliser_CSS_dans_une_page_web]
 
 
 
