@@ -23,7 +23,20 @@ Et pour finir un dossier Assets reprenant les éléments de design dont vous pou
 
 On fork et on pull request !
 
-Tout d'abord je vous invite à aller lire le fichier "apprendre-git.md" à la racine de ce repository (TODO:lien).
+Tout d'abord je vous invite à aller lire le fichier "apprendre-git.md" à la racine de ce repository, vous y trouverez votre premier exercice, la théorie nécessaire à la bonne utilisation de cet outils durant les prochaines semaines ainsi que des ressources pour aller plus loin dans son apprentissage.
 
+Pour obtenir vos consignes:
+
+Allez sur le repository de la semaine forkez le puis clonez le sur votre ordinateur, ouvrez le dossier dans VSCode, lisez les objectifs de la semaine dans le fichier objectifs.md, allez dans le dossier exercices et prenez connaissances des fichiers consignes.md
+
+Pour rendre vos travaux:
+
+Vos travaux sont à rendre pour le samedi 23h59 heure du dernier commit.
+Nous serons vigilant au respect des deadlines.
+Pour rendre votre travail il vous suffit de faire une pull request, si vous avez lu et pris connaissance du fichier apprendre-git.md cela ne vous sera pas inconnu.
+
+Bienvenue chez nous, et bon travail!
+
+L'équipe Sirius School
 
 
