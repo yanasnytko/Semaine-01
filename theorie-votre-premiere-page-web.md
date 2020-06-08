@@ -8,7 +8,7 @@ Vous trouverez dans ce fichier toutes les ressources nécessaires à la réalisa
 
 1. Qu'est ce que le HTML
 2. Qu'est ce que le CSS
-3. MDN et autres ressources
+3. MDN et autres ressources...
 
 ## Qu'est ce que le HTML ?
 
