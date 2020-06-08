@@ -25,7 +25,6 @@ Basez vous sur le dossier exercice-recette comme base à la création de votre p
 ## Tips / Astuces 
 
 * Retournez lire la théorie vue plus tôt
-* Vous pouvez mettre votre CSS dans votre page HTML
 * Pourquoi ne pas essayer d'insérer une Google Font?
 * Si vraiment vous voulez aller plus loin, vous pouvez essayer une mise en page avec Flexbox
 
