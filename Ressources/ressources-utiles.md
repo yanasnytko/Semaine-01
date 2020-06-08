@@ -15,6 +15,7 @@ Je vous conseille fortement de le suivre jusqu'au bout et de réaliser les exerc
 Codecademy contient une formule payante comprenant des exercices supplémentaire. Ne souscrivez pas à cette formule, les syllabus interactif proposés aux utilisateurs gratuits sont amplement suffisant pour vous guider pas à pas au début
 
 Introduction au HTML: https://www.codecademy.com/learn/learn-html
+
 Introduction au CSS: https://www.codecademy.com/learn/learn-css
 
 
