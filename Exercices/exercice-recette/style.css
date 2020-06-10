@@ -92,24 +92,19 @@ ol {
   margin-left: 1em;
 }
 ul {
-  list-style: square inside;
+  list-style: square outside;
 }
 ul ul {
-  list-style: circle inside;
+  list-style: circle outside;
   margin-left: 2em;
 }
 ol {
-  list-style: decimal inside;
+  list-style: decimal outside;
 }
 li {
   padding: 0.4em 0;
-}
-ol li {
   text-align: justify;
-  padding-left: 40px;
-  text-indent: -40px;
 }
-
 span + ul {
   padding-top: 0.8em;
 }
