@@ -1,5 +1,4 @@
 /* RESET */
-
 html {
   box-sizing: border-box;
   font-size: 16px;
@@ -44,17 +43,22 @@ body {
   width: 80%;
   margin: 0 auto;
 }
+#intro {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
 header p {
   text-align: justify;
-  padding: 2em 0;
-  position: relative;
-  width: 70%;
+  padding: 2em 4em 2em 0;
+  width: 80%;
 }
 footer p {
   padding: 0.2em;
   text-align: center;
   color: grey;
 }
+
 /* Titres */
 h1 {
   font-family: 'Bungee', cursive;
@@ -65,15 +69,16 @@ h1 {
   font-size: 3em;
 }
 h2,
-h3 {
+span {
   font-size: 2em;
   color: black;
   font-weight: bold;
   padding: 0.8em 0 0.4em 0;
 }
-h3 {
+span {
   font-size: 1.2em;
-  padding: 0.4em 0;
+  padding: 1em 0;
+  list-style: none;
 }
 p {
   color: rgb(84, 84, 84);
@@ -84,13 +89,14 @@ p {
 /* Listes */
 ul,
 ol {
-  padding-bottom: 1.4em;
+  margin-left: 1em;
 }
 ul {
   list-style: square inside;
 }
 ul ul {
   list-style: circle inside;
+  margin-left: 2em;
 }
 ol {
   list-style: decimal inside;
@@ -100,6 +106,15 @@ li {
 }
 ol li {
   text-align: justify;
+  padding-left: 40px;
+  text-indent: -40px;
+}
+
+span + ul {
+  padding-top: 0.8em;
+}
+.sous-categorie {
+  list-style: none;
 }
 /* Liens */
 a {
