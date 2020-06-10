@@ -1,52 +1,107 @@
+/* RESET */
 
-/* Style texte */
-h2{
-    font-size: 30px;
-    color: black;
+html {
+  box-sizing: border-box;
+  font-size: 16px;
 }
-h3 {
-    margin: 0 auto;
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
 }
-p {
-    color: rgb(84,84,84);
-    padding: 10%;
-    line-height: 180%;
-    letter-spacing: 200%;
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
 }
+
+ol,
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 /* Structure */
 body {
-    background-color: rgb(249,249,249);
-    color: rgb(27,29,38);
-    font-family: 'Roboto', sans-serif;
-    width: 100%;
-    height: auto;
+  background-color: rgb(249, 249, 249);
+  color: rgb(27, 29, 38);
+  font-family: 'Montserrat', sans-serif;
+  width: 80%;
+  margin: 0 auto;
 }
-.main-section {
-    width: 900px;
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-    justify-content: center;
-    height: auto
+header p {
+  text-align: justify;
+  padding: 2em 0;
+  position: relative;
+  width: 70%;
 }
-div.logo {
-    margin-top: 2%;
-    margin-bottom: 5%;
+footer p {
+  padding: 0.2em;
+  text-align: center;
+  color: grey;
 }
-div.first-titles-container { 
-    padding: 50px;
-    width: 30%;
+/* Titres */
+h1 {
+  font-family: 'Bungee', cursive;
+  padding: 1.2em;
+  background-image: url('assets/bortsch_transparence.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 3em;
 }
-div.title {
-    border-left: 5px solid rgb(46,64,136);
-    margin: 1%;
-    padding-left: 1%;
-    letter-spacing: 3px;
-    font-family: 'PT Sans Caption', sans-serif;
+h2,
+h3 {
+  font-size: 2em;
+  color: black;
+  font-weight: bold;
+  padding: 0.8em 0 0.4em 0;
 }
-.text-container-first {
-    display: flex;
-    justify-content: flex-start;
+h3 {
+  font-size: 1.2em;
+  padding: 0.4em 0;
 }
-/* Images */
+p {
+  color: rgb(84, 84, 84);
+  padding: 10%;
+  line-height: 180%;
+}
 
+/* Listes */
+ul,
+ol {
+  padding-bottom: 1.4em;
+}
+ul {
+  list-style: square inside;
+}
+ul ul {
+  list-style: circle inside;
+}
+ol {
+  list-style: decimal inside;
+}
+li {
+  padding: 0.4em 0;
+}
+ol li {
+  text-align: justify;
+}
+/* Liens */
+a {
+  color: grey;
+}
