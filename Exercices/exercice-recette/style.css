@@ -30,11 +30,6 @@ ul {
   list-style: none;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-}
-
 /* Structure */
 body {
   background-color: rgb(249, 249, 249);
@@ -43,20 +38,40 @@ body {
   width: 80%;
   margin: 0 auto;
 }
+
 #intro {
   display: flex;
-  justify-content: space-between;
   align-items: flex-start;
 }
 header p {
   text-align: justify;
-  padding: 2em 4em 2em 0;
+  margin: 2em 2em 0 0;
   width: 80%;
+  line-height: 1.8em;
+}
+nav {
+  border-left: gray solid 1px;
+  padding-left: 2em;
+  margin-top: 2em;
+}
+
+main {
+  width: 80%;
+}
+
+footer,
+hr {
+  margin: 2em 0;
 }
 footer p {
   padding: 0.2em;
   text-align: center;
   color: grey;
+  font-size: 0.8em;
+}
+
+img {
+  margin-right: 0.4em;
 }
 
 /* Titres */
@@ -66,52 +81,75 @@ h1 {
   background-image: url('assets/bortsch_transparence.png');
   background-repeat: no-repeat;
   background-size: cover;
-  font-size: 3em;
+  font-size: 4em;
 }
 h2,
 span {
   font-size: 2em;
-  color: black;
+  color: #7a2c2d;
   font-weight: bold;
   padding: 0.8em 0 0.4em 0;
+}
+nav h2 {
+  padding: 0;
+  font-size: 1.4em;
 }
 span {
   font-size: 1.2em;
   padding: 1em 0;
   list-style: none;
 }
-p {
-  color: rgb(84, 84, 84);
-  padding: 10%;
-  line-height: 180%;
-}
 
 /* Listes */
-ul,
+main ul,
 ol {
-  margin-left: 1em;
-}
-ul {
-  list-style: square outside;
-}
-ul ul {
-  list-style: circle outside;
-  margin-left: 2em;
+  margin-left: 1.2em;
+  line-height: 1.4em;
 }
 ol {
   list-style: decimal outside;
+}
+ul {
+  list-style: circle outside;
 }
 li {
   padding: 0.4em 0;
   text-align: justify;
 }
-span + ul {
-  padding-top: 0.8em;
+#infos ul,
+#ingredients > ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
-.sous-categorie {
+
+span + ul {
+  padding-top: 0.2em;
+}
+.sous-categorie,
+#infos ul,
+nav ul {
   list-style: none;
 }
+.sous-categorie:first-of-type,
+.sous-categorie:nth-of-type(2) {
+  max-width: 40%;
+}
+
 /* Liens */
 a {
   color: grey;
+}
+nav a {
+  text-decoration: none;
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  height: auto;
+}
+#infos img {
+  display: block;
+  margin: 1em auto;
 }
