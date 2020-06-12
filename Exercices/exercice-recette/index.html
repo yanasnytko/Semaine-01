@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,43 +8,63 @@
       href="https://fonts.googleapis.com/css2?family=Bungee&family=Montserrat:wght@400;700&display=swap"
       rel="stylesheet"
     />
-    <title>La recette de Bortsch par Yana</title>
+    <title>
+      La recette de Bortsch par Yana
+    </title>
   </head>
 
-  <body>
+  <body itemscope itemtype="https://schema.org/Recipe">
     <!-- Intro -->
-    <header>
-      <h1 id="image">
+    <header role="banner">
+      <h1 id="image" itemprop="name">
         Bortsch
       </h1>
       <div id="intro">
-        <p class="intro">
-          Bortsch est un potage préparé dans plusieurs pays slaves. Il contient
-          habituellement de la betterave, crue et non précuite, qui lui donne
-          une forte couleur rouge bordeaux. D'autres ingrédients supplémentaires
-          habituels, selon la préparation, sont les légumes qu’on cuit le plus
-          souvent séparément de la betterave. On y ajoute très souvent de la
-          viande, généralement du porc ou du bœuf, plus rarement du poulet. Dans
-          certaines régions, les pays baltes notamment, on ajoute souvent des
-          champignons.
+        <p class="intro" itemprop="description">
+          Bortsch est un potage préparé dans plusieurs pays
+          <span itemprop="recipeCuisine">slaves</span>
+          . Il contient habituellement de la betterave, crue et non précuite,
+          qui lui donne une forte couleur rouge bordeaux. D'autres ingrédients
+          supplémentaires habituels, selon la préparation, sont les légumes
+          qu’on cuit le plus souvent séparément de la betterave. On y ajoute
+          très souvent de la viande, généralement du porc ou du bœuf, plus
+          rarement du poulet. Dans certaines régions, les pays baltes notamment,
+          on ajoute souvent des champignons.
         </p>
-        <nav class="intro">
+        <nav class="intro" role="navigation">
           <h2>
             Menu
           </h2>
-          <ul>
-            <li>
-              <a href="#infos" title="Aller à la section Infos pratiques">
+          <ul role="list">
+            <li role="listitem">
+              <a href="#image" title="Aller en haut de la page" role="link">
+                Intro
+              </a>
+            </li>
+            <li role="listitem">
+              <a
+                href="#infos"
+                title="Aller à la section Infos pratiques"
+                role="link"
+              >
                 Infos pratiques
               </a>
             </li>
-            <li>
-              <a href="#ingredients" title="Aller à la section Ingrédients">
+            <li role="listitem">
+              <a
+                href="#ingredients"
+                title="Aller à la section Ingrédients"
+                role="link"
+              >
                 Ingrédients
               </a>
             </li>
-            <li>
-              <a href="#preparation" title="Aller à la section Préparation">
+            <li role="listitem">
+              <a
+                href="#preparation"
+                title="Aller à la section Préparation"
+                role="link"
+              >
                 Préparation
               </a>
             </li>
@@ -52,182 +72,206 @@
         </nav>
       </div>
     </header>
+
     <!-- La recette -->
-    <main>
+    <main role="main">
       <div id="infos">
         <h2>
           Infos pratiques
         </h2>
-        <ul>
-          <li>
+        <ul role="list">
+          <li itemprop="totalTime" role="listitem">
             <img
               src="assets/temps.png"
               alt="Picto de Temps"
               title="Temps"
-              width="40px"
-              height="auto"
+              width="40"
             />
             Temps&nbsp;: 3h50
           </li>
-          <li>
+          <li itemprop="recipeYield" role="listitem">
             <img
               src="assets/personnes.png"
               alt="Picto de Personnes"
               title="Personnes"
-              width="40px"
-              height="auto"
+              width="40"
             />
             Personnes&nbsp;: 4
           </li>
-          <li>
+          <li role="listitem">
             <img
               src="assets/difficulte.png"
               alt="Picto de Niveau de difficulté"
               title="Niveau de difficulté"
-              width="40px"
-              height="auto"
+              width="40"
             />
             Niveau de difficulté&nbsp;: 3/4
           </li>
-          <li>
+          <li itemprop="estimatedCost" role="listitem">
             <img
               src="assets/cout.png"
               alt="Picto du coût moyen"
               title="Coût moyen"
-              width="40px"
-              height="auto"
+              width="40"
             />
             Coût moyen&nbsp;: 2/3
           </li>
         </ul>
       </div>
 
-      <div id="ingredients">
+      <div id="ingredients" itemprop="nutrition">
         <h2>
           Ingrédients
         </h2>
-        <ul>
-          <li class="sous-categorie">
+        <ul role="list">
+          <li class="sous-categorie" role="listitem">
             <span>
               Générales
             </span>
-            <ul>
-              <li>500&nbsp;g de macreuse de boeuf</li>
-              <li>1&nbsp;os à moelle</li>
-              <li>2.5&nbsp;l d'eau</li>
-              <li>
+            <ul role="list">
+              <li itemprop="recipeIngredient" role="listitem">
+                500&nbsp;g de macreuse de boeuf
+              </li>
+              <li itemprop="recipeIngredient" role="listitem">
+                1&nbsp;os à moelle
+              </li>
+              <li itemprop="recipeIngredient" role="listitem">
+                2.5&nbsp;l d'eau
+              </li>
+              <li itemprop="recipeIngredient" role="listitem">
                 1 bouquet garni (1 branche de thym, 1 feuille de laurier, 1
                 branche de persil)
               </li>
-              <li>2 oignons</li>
-              <li>2 carottes</li>
-              <li>1 coeur de céleri</li>
-              <li>2 tomates</li>
-              <li>Sel</li>
+              <li itemprop="recipeIngredient" role="listitem">2 oignons</li>
+              <li itemprop="recipeIngredient" role="listitem">2 carottes</li>
+              <li itemprop="recipeIngredient" role="listitem">
+                1 coeur de céleri
+              </li>
+              <li itemprop="recipeIngredient" role="listitem">2 tomates</li>
+              <li itemprop="recipeIngredient" role="listitem">Sel</li>
             </ul>
           </li>
-          <li class="sous-categorie">
+          <li class="sous-categorie" role="listitem">
             <span>
               Pour le potage
             </span>
-            <ul>
-              <li>4 cuillères à soupe de crème épaisse</li>
-              <li>2 tomates</li>
-              <li>500&nbsp;g de betterave</li>
-              <li>1 navet</li>
-              <li>1 céleri rave</li>
-              <li>2 pommes de terre</li>
-              <li>200&nbsp;g de chou</li>
-              <li>2 poireaux</li>
-              <li>2 gousses d'ail</li>
-              <li>2 cuillères à soupe de beurre</li>
-              <li>2 cuillères à soupe de vinaigre</li>
-              <li>1/2 cuillère à café de sucre</li>
-              <li>1 citron</li>
-              <li>Poivre</li>
-              <li>Sel</li>
+            <ul role="list">
+              <li itemprop="recipeIngredient" role="listitem">
+                4 cuillères à soupe de crème épaisse
+              </li>
+              <li itemprop="recipeIngredient" role="listitem">2 tomates</li>
+              <li itemprop="recipeIngredient" role="listitem">
+                500&nbsp;g de betterave
+              </li>
+              <li itemprop="recipeIngredient" role="listitem">1 navet</li>
+              <li itemprop="recipeIngredient" role="listitem">1 céleri rave</li>
+              <li itemprop="recipeIngredient" role="listitem">
+                2 pommes de terre
+              </li>
+              <li itemprop="recipeIngredient" role="listitem">
+                200&nbsp;g de chou
+              </li>
+              <li itemprop="recipeIngredient" role="listitem">2 poireaux</li>
+              <li itemprop="recipeIngredient" role="listitem">
+                2 gousses d'ail
+              </li>
+              <li itemprop="recipeIngredient" role="listitem">
+                2 cuillères à soupe de beurre
+              </li>
+              <li itemprop="recipeIngredient" role="listitem">
+                2 cuillères à soupe de vinaigre
+              </li>
+              <li itemprop="recipeIngredient" role="listitem">
+                1/2 cuillère à café de sucre
+              </li>
+              <li itemprop="recipeIngredient" role="listitem">1 citron</li>
+              <li itemprop="recipeIngredient" role="listitem">Poivre</li>
+              <li itemprop="recipeIngredient" role="listitem">Sel</li>
             </ul>
           </li>
-          <li class="sous-categorie">
+          <li class="sous-categorie" role="listitem">
             <span>
               Ustensiles
             </span>
-            <ul>
-              <li>1 marmite</li>
-              <li>1 casserole</li>
-              <li>1 économe</li>
+            <ul role="list">
+              <li role="listitem">1 marmite</li>
+              <li role="listitem">1 casserole</li>
+              <li role="listitem">1 économe</li>
             </ul>
           </li>
         </ul>
       </div>
 
-      <div id="preparation">
+      <div id="preparation" itemscope itemtype="https://schema.org/HowToStep">
         <h2>
           Préparation
         </h2>
-        <ol>
-          <li>
+        <ol role="list">
+          <li itemprop="recipeInstructions" role="listitem">
             Epluchez les carottes et les tomates (après les avoir ébouillantées
             pour que la peau s'enlève plus facilement). Mettez dans une marmite
             le boeuf, l'os et l'eau froide. Amenez à ébullition. Ecumez.
           </li>
-          <li>
+          <li itemprop="recipeInstructions" role="listitem">
             Ajoutez les oignons coupés en 4, les légumes en morceaux et le
             bouquet garni.
           </li>
-          <li>
+          <li itemprop="recipeInstructions" role="listitem">
             Salez.
           </li>
-          <li>
+          <li itemprop="recipeInstructions" role="listitem">
             Laissez cuire 1h30 environ jusqu'à ce que la viande soit tendre.
           </li>
-          <li>
+          <li itemprop="recipeInstructions" role="listitem">
             Ebouillantez les tomates pour les éplucher. Coupez-les en 2.
             Epluchez les betteraves, le navet, le céleri rave.
           </li>
-          <li>
+          <li itemprop="recipeInstructions" role="listitem">
             Hachez-les en gros morceaux.
           </li>
-          <li>
+          <li itemprop="recipeInstructions" role="listitem">
             Epluchez les pommes de terre et coupez-les en dés. Emincez le chou.
             Coupez les poireaux en petits morceaux.
           </li>
-          <li>
+          <li itemprop="recipeInstructions" role="listitem">
             Ecrasez l'ail et faites-le revenir dans un grand poelon avec le
             beurre. Ajoutez les betteraves, le céleri rave, le navet, les
             tomates, le vinaigre et le sucre.
           </li>
-          <li>
+          <li itemprop="recipeInstructions" role="listitem">
             Mouillez de bouillon. Couvrez. Laissez mijoter 1h.
           </li>
-          <li>
+          <li itemprop="recipeInstructions" role="listitem">
             Dans le reste du bouillon porte à ébullition, ajoutez le chou et les
             pommes de terre. Faites cuire à découvert jusqu'à ce que les pommes
             de terre soient tendres. Ajoutez ces légumes et le bouillon à la
             soupe de betteraves.
           </li>
-          <li>
+          <li itemprop="recipeInstructions" role="listitem">
             Ajoutez la viande de boeuf en petits morceaux. Poivrez. Salez si
             nécessaire. Continuez la cuisson environ 1/2h à feu moyen.
           </li>
-          <li>
+          <li itemprop="recipeInstructions" role="listitem">
             Servez avec la crème additionnée d'un peu de jus de citron et
             présentée séparément.
           </li>
-          <li>
+          <li itemprop="recipeInstructions" role="listitem">
             Régalez-vous&nbsp;! Do svidania.
           </li>
         </ol>
       </div>
     </main>
+
     <!-- Bas de page -->
     <footer>
-      <hr />
+      <hr role="separator" />
       <p>
         Pour plus de recettes russes, contactez
         <a
           href="mailto:yana@siriusschool.be"
           title="Envoyer un e-mail à Yana, l'auteur de site"
+          itemprop="author"
+          role="link"
         >
           Yana
         </a>
@@ -239,18 +283,24 @@
           href="https://siriushub.be/"
           target="_blank"
           title="Aller sur le site de Sirius Hub"
+          role="link"
         >
           <img
             src="assets/sirius_logo.png"
             alt="Logo de Sirius Hub"
-            width="23px"
+            width="23"
           />
           Sirius School
         </a>
         .
       </p>
       <p>
-        <a href="#image" title="Revenir en haut de la page web">
+        <a
+          href="#image"
+          title="Revenir en haut de la page web"
+          id="retour"
+          role="link"
+        >
           Revenir en haut
         </a>
       </p>
