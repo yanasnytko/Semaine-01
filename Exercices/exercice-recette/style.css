@@ -44,26 +44,28 @@ body {
   margin: 0 auto;
 }
 
-#intro {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: start;
-  align-items: flex-start;
+nav {
+  border-left: gray solid 1px;
+  padding-left: 2em;
+  top: 0;
+  position: -webkit-sticky;
+  position: sticky;
+  float: right;
+  width: 14%;
+  margin-top: 361.6px;
+  margin-right: 2.2em;
 }
+@supports (-webkit-overflow-scrolling: touch) {
+  nav {
+    background-attachment: scroll;
+  }
+}
+
 header p {
   text-align: justify;
   margin: 2em 2em 0 0;
   width: 80%;
   line-height: 1.8em;
-}
-nav {
-  border-left: gray solid 1px;
-  margin-top: 2em;
-  padding-left: 2em;
-  position: fixed;
-  right: 0;
-  margin-right: 11%;
-  width: 12%;
 }
 
 main {
